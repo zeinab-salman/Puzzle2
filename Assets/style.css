@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Abril Fatface", serif;
+}
+
+button {
+    margin: 3px;
+    background-color: rgb(181, 149, 188) !important;
+}
+
+button:hover {
+    background-color: rgb(136, 99, 151) !important;
+}
+
+.board {
+    height: 100vh;
+    background-color: rgb(226, 208, 242);
+}
+
+.result {
+    font-size: 50px;
+    color: rgb(71, 12, 71);
+    animation: result 5s normal 1s infinite linear forwards;
+}
+
+@keyframes result {
+    0% {
+        font-size: 50px;
+    }
+
+    50% {
+        font-size: 55px;
+    }
+
+    100% {
+        font-size: 50px;
+    }
+}
+
+.click1 {
+    color: rgb(71, 12, 71);
+    font-size: large;
+}
+
+.click {
+    color: rgb(71, 12, 71);
+    font-size: x-large;
+}
+
+
+@media (max-width:495px) {
+
+    .click,
+    .click1 {
+        font-size: medium;
+    }
+
+}
